@@ -1,0 +1,19 @@
+h1{
+    background-color: blue;
+    font-size: 80px;
+    
+}
+p{
+    color: blue;
+    background-color: red;
+}
+
+.line2{
+    color: black;
+    size: 25px;
+    background-color: brown;
+}
+
+#middle{
+    color: crimson;
+}
