@@ -18,24 +18,33 @@
     background-color: blue;
     border: 50px;
     margin: 15px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0px;
     
 }
 .main {
     height: 400px;
     width: 600px;
-    background-color: red;
+    background-color:red;
+    display: inline-block;
 
 }
 .sub-content {
     height: 100px;
-    width: 210px;
-    background-color: blue;
+    width: 25%;
+    background-color: yellow;
+    display: inline-block;
+    margin: 20px;
+
 }
 #advertisement {
-    height: 120px;
+    height: 100px;
     width: 500px;
     background-color: purple;
-    margin: 50px;
+    margin: 20px;
+    display: block;
+   
     
     
 }.container{
@@ -58,12 +67,7 @@
     background-color: red;
     
 }
-.sub-content {
-    height: 100px;
-    width: 50%;
-    background-color: yellow;
-    display: inline block
-}
+
 #advertisement {
     height: -500px;
     width: 600px;
