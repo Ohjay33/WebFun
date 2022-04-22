@@ -1,0 +1,29 @@
+h1{
+    color: blue;
+    background-color: black;
+    font-style: unset;
+    font-size: 30px;
+    height: 45px;
+}
+h2{
+    text-align: center;
+    background-color: rgb(67, 11, 124);
+    height: 45px;
+    padding-top: 15px;
+    color: antiquewhite;
+
+}
+h3{
+    text-decoration: underline;
+    font-size: 18px;
+    text-align: right;
+    background-color: aquamarine;
+    color: purple;
+    width:100%;
+    height: 45px;
+    text-align: bottom;
+
+}
+.styling-bar{
+outline: 10px;
+}
