@@ -1,7 +1,9 @@
 .nav-links{
     display: flex;
     justify-content:space-evenly;
-    border: 10px;color: darkblue;
+    border: 10px;
+    
+    
     
     
 }
