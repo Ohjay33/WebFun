@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("Join");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
+    <div class="container">
+        <div class="topbar">
+            <h2>JustDessert</h2>
+            <div class="rightside2">
+
+                <div class="JoinButton">
+                    <div id="Join">
+                        <button onclick="myFunction()">Join</button>
+                    </div>
+                    <button class="login">Login</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="Bar2">
+            <img onclick="alert('Hi Ohjay!')" class="Go" src="" alt="">
+            <div class="SearchBar">
+                <input type="Search" name="" id="SearchBar">
+                <button class="Go">Go</button>
+            </div>
+            <div><img src="cake.png" alt="" id="sweet">
+                <p>Cakes</p>
+            </div>
+            <div><img src="ice-cream.png" alt="" id="sweet">
+                <p>ice cream</p>
+            </div>
+            <div><img src="cookie.png" alt="" id="sweet">
+                <p>Cookies</p>
+            </div>
+            <div><img src="pie.png" alt="" id="sweet">
+                <p>Pie</p>
+            </div>
+
+        </div>
+        <div class="MainContent">
+            <div class="Tart">
+                <h1>Recipe of the Day</h1>
+                <img src="orange-tart.jpg" alt="" id="tart">
+                <img src="heart.png" alt="" id="heart">
+                <p>Orange Tea Jelly Tart</p>
+
+                <a href="#">By:Yuripiano</a>
+            </div>
+            <div class="Sweets">
+                <span>Recommended for You</span>
+                <div>
+                    <img src="macarons.jpg" alt="" id="sweets">
+                    <img src="heart.png" alt="" id="heart">
+                </div>
+                <p>Macarons</p>
+                <a href="#">EmilieW</a>
+                <div>
+                    <img src="creme-brulee.jpg" alt="" id="sweets">
+                    <img src="heart.png" alt="" id="heart">
+                    <p>Creme Brulee</p>
+                    <a href="#">MarisaG</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
