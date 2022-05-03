@@ -1,96 +1,116 @@
-.container{
+.container {
     width: 900px;
     height: 900px;
     background-color: wheat;
-    margin:0 auto
+    margin: 0 auto
 }
 
-.Go{
+.Go {
     height: 25px;
     background-color: blue;
 }
-.topbar{
+
+.topbar {
     background-color: rgb(16, 16, 16);
     width: 100%;
     height: 60px;
     display: flex;
     justify-content: space-between;
 }
-.leftside1{
+
+.leftside1 {
     background-color: gray;
     height: 75px;
     width: 100px;
     display: flex;
     justify-content: space-evenly;
-    
+
 }
-h1{
+
+h1 {
     text-align: center;
-    font-family:cursive;
-    
+    font-family: cursive;
+
 }
-h2{
+
+h2 {
     width: 50px;
     height: 20px;
-    color:darkorange;
+    color: darkorange;
     text-align: left;
     display: flex;
     margin-left: 6px;
-    
+
 }
-.Bar2{
+
+span {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.Bar2 {
     background-color: rgb(199, 132, 44);
     height: 190px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
 }
-#Join{
+
+#Join {
     background-color: blue;
     color: orangered;
 }
-.JoinButton{
-    
+
+.JoinButton {
+
     display: flex;
 }
-.login{
+
+.login {
     background-color: blue;
     color: antiquewhite;
 }
-#sweet{
+
+#sweet {
     height: 100px;
     width: 100px;
     justify-content: space-evenly;
 
+
 }
-.MainContent{
-    background-color:beige
-    width: 900px;
+
+.MainContent {
+    background-color: beige width: 900px;
     height: 675px;
     display: flex;
     justify-content: space-between;
 }
-#tart{
+
+#tart {
     width: 456px;
     height: 343px;
 }
-#sweets{
+
+#sweets {
     height: 200px;
     width: 410px;
+    margin-top: 10px;
 }
-p{
+
+p {
     font-weight: bold;
 }
-#heart{
-height: 20px;
-width: 20px;
-margin-left: 337px;
+
+#heart {
+    height: 20px;
+    width: 20px;
+    margin-left: 337px;
 }
-span{
+
+span {
     text-decoration: underline;
 }
-.SearchBar{
+
+.SearchBar {
     margin-top: 75px;
 }
-
-
