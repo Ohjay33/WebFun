@@ -16,6 +16,8 @@
     height: 125px;
     width: 500px;
     background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
 }
 .mainpic{
     background-color:burlywood;
@@ -37,14 +39,35 @@ button{
     margin-top: 10px;
 }
 #heart{
-    height: 25px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     display: flex;
     
 }
 #icecream{
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     display: flex;
     
 }
+#brulee{
+    width: 100px;
+    height: 100px;
+}
+ #tart{
+     width: 100px;
+     height: 100px;
+ }
+  #cookie{
+      height: 100px;
+      width: 100px;
+  }
+  #search{
+      width: 139px;
+      height: 18px;
+      margin-top: 43px;
+      
+  }
+  #heart-title{
+      text-decoration: underline;
+  }
