@@ -1,0 +1,51 @@
+.greybox{
+    height: 477px;
+    width: 700px;
+    background-color: grey;
+    
+
+}
+.greenbox{
+    height: 100px;  
+    width: 672px;
+    background-color: darkgreen;
+    display:inline-block;
+    margin-top: 15px;
+    margin-left: 15px;  
+    
+}
+.bluebox{
+    width: 162px;
+    height: 251px;
+    background-color: blue;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.redbox{
+    width: 502px;
+    height: 335px;
+    background-color: red;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+.mesh{
+    display: flex;
+    
+}
+#yellow1, #yellow2, #yellow3{
+    background-color: yellow;
+    height: 141px;
+    width: 149px;
+    display: inline-flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+#purplebox{
+    background-color:purple;
+    height: 75px;
+    width: 471px;
+    margin-left: 10px;
+    margin-top: 35px;
+}
