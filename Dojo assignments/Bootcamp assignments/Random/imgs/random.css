@@ -1,0 +1,50 @@
+.box{
+    background-color: violet;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    
+}
+.smallbox{
+    height: 70px;
+    width: 500px;
+    display: flex;
+
+    background-color: aquamarine;
+}
+.base{
+    height: 125px;
+    width: 500px;
+    background-color: aliceblue;
+}
+.mainpic{
+    background-color:burlywood;
+    width: 240px;
+    height: 282px;
+    margin-left: 10px;
+    display: flex;
+    
+}
+h1{
+    color: black;
+    margin-left: 10px;
+}
+button{
+    height: 23px;
+    background-color: blue;
+    color: beige;
+    margin-left: 50%;
+    margin-top: 10px;
+}
+#heart{
+    height: 25px;
+    width: 50px;
+    display: flex;
+    
+}
+#icecream{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    
+}

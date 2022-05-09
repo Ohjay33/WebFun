@@ -1,20 +1,6 @@
-// JavaScript program to implement the FizzBuzz problem
-
-for (let i=1; i<=100; i++) {
-    
-     if (i%15 == 0) {
-     document.write("FizzBuzz" + " ");
-     }
+function sumNums(num1, num2) {  
+     return num1+num2;
+  }
+  console.log(sumNums(2,3))
+  console.log(sumNums(3,5))
   
-     else if ((i%3) == 0) {
-     document.write("Fizz" + " ");
-     }
-
-     else if ((i%5) == 0) {
-     document.write("Buzz" + " ");
-     }
-  
-     else {
-     document.write(i + " ");
-     }
-    }
