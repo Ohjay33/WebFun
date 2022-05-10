@@ -1,0 +1,21 @@
+.dojo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    height: 100px;
+    width: 700px;
+    background-color: rgb(53, 117, 96);
+    display: flex;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+h1{
+    color: antiquewhite;
+}
+li{
+    color: antiquewhite;
+    
+}
