@@ -1,21 +1,41 @@
+
+
 .dojo{
-    display: flex;
-    justify-content: space-evenly;
-}
-.box{
     height: 100px;
-    width: 700px;
-    background-color: rgb(53, 117, 96);
+    width: 750px;
+    background-color: rgb(36, 101, 166);
     display: flex;
+    justify-content:space-between;
+    align-items: center;
 }
 ul{
     display: flex;
     list-style-type: none;
+    justify-content: space-evenly;
+    color: white;
+    padding:0 45px;
+
+    
+    
 }
 h1{
     color: antiquewhite;
+    font-size:large;
+    
+    
+   
 }
 li{
     color: antiquewhite;
+    margin-left: 10px;
+    
     
 }
+img{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+    }
+    a{
+        color: white;
+    }

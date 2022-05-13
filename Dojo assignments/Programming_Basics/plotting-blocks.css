@@ -9,7 +9,6 @@
     height: 100px;  
     width: 672px;
     background-color: darkgreen;
-    display:inline-block;
     margin-top: 15px;
     margin-left: 15px;  
     
@@ -33,7 +32,7 @@
     display: flex;
     
 }
-#yellow1, #yellow2, #yellow3{
+.yellow{
     background-color: yellow;
     height: 141px;
     width: 149px;
@@ -42,7 +41,7 @@
     margin-top: 10px;
     
 }
-#purplebox{
+.purplebox{
     background-color:purple;
     height: 75px;
     width: 471px;
