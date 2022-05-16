@@ -7,6 +7,7 @@
 
 
 //   for (var x = 1; x <= 255; x += 2) { 
+//                               x=x+y//
 //     console.log(x);
 //   }
 
@@ -15,6 +16,7 @@
 
 // var sum = 0;
 //   for (var x = 0; x <= 255; x += 1) {
+                              //x=x+y//
 //     sum = sum + x;
 //     console.log(x, sum);
 //   }
@@ -69,6 +71,7 @@
 
 // var square = [2,233,25,7,99,10,14,3].map(function(value){
 // 	return Math.pow(value,2);
+// 
 // });
 
 // console.log(square);
