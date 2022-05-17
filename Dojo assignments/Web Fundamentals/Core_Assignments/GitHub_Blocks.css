@@ -4,26 +4,39 @@
     background-color: rgb(179, 179, 190);
     align-items: center;
     margin-left: 100px;
-    border: 10px black;
-    border-style: solid;
+    /* border: 10px black; */
+    /* border-style: solid; */
 }
 h1{
     text-align: center;
 }
 .bluebox{
     width: 100%;
-    height: 260px;
+    height: 216px;
     background-color: rgb(129, 129, 223);
+    display: flex;
+    justify-content: space-evenly;
 }
 .purplebox{
     width: 100%;
     height: 260px;
     background-color:rgb(231, 134, 231);
+    display: flex;
+    justify-content: space-evenly;
     
 }
 .whitebox{
     width: 100%;
     height: 199px;
     background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
 
+}
+img{
+    height: 160px;
+    width: 175px;
+    align-items: center;
+    margin-top: 26px;
+    
 }
