@@ -15,3 +15,25 @@
 // console.log("there are " + countPositives + " positive values");
 
 
+
+// var x = 5;
+    
+// function setX(newValue) {
+//     x = newValue; 
+// }
+    
+// console.log(x);
+// setX(15);
+// console.log(x);
+
+// var x = 5;
+    
+// function addToX(amount) {
+//     return x + amount;
+//     console.log("hello there");
+// }
+    
+// console.log(x);
+// var result = addToX(-10);
+// console.log(result);
+// console.log(x);
