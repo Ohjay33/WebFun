@@ -1,0 +1,229 @@
+.outerbox {
+    border-style: solid;
+    background-color: beige;
+    width: 700px;
+    height: 539px;
+    /* margin-left: 250px; */
+    /* display:flex; */
+    justify-content: space-between;
+    margin: 0;
+
+}
+.BigBox{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+button{
+    background-color: rgb(24, 167, 206);
+
+}
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.namebox {
+    width: 284px;
+    height: 273px;
+
+    /* margin-left: 30px; */
+    border: 2px;
+    border-color: grey;
+    border-style: solid;
+    margin-top: 25px;
+    /* display:flex; */
+justify-content: space-evenly;
+}
+    
+    
+
+
+.topbox {
+    width: 100%;
+    height: 63px;
+    background-color: rgb(24, 167, 206);
+    display: flex;
+
+}
+
+.topgrey {
+    width: 100%;
+    height: 40px;
+    background-color: grey;
+    display: flex;
+
+}
+
+.box2 {
+    width: 289px;
+    height: 119px;
+    /* margin-left: 29px; */
+    margin-top: 30px;
+    border: 1px;
+    border-style: solid;
+    /* background-color: cadetblue; */
+    
+}
+.coding{
+    margin: 2px;
+    text-align: center;
+    font-size: medium;
+    color: black;
+    font-weight: bold;
+}
+.date{
+    margin: 1px;
+    text-align: center;
+    font-size: medium;
+    color: grey;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.belts{
+    margin:1px;
+    text-align: center;
+    font-size: small;
+    font-weight: normal;
+    
+    
+}
+.connectionbox{
+  background-color:white;
+  height: 448px;
+  width: 250px;
+  /* display: inline-block; */
+  margin: 10px;
+    
+}
+.conn-req{
+    /* background-color: blue; */
+    width: 78%;
+    height: 140px;
+    border: 4px;
+    border-color: grey;
+    border-style: solid;
+    /* display: flex; */
+}
+.your-conn{
+    /* background-color: deeppink; */
+    width: 78%;
+    height: 247px;
+    margin-top: 32px;
+    border: 4px;
+    border-color: grey;
+    border-style: solid;
+}
+#Request{
+/* background-color: grey; */
+height: 11px;
+font-size: medium;
+
+}
+#name{
+/* justify-content:end; */
+padding: 2px;
+display: flex;
+color: black;
+font-weight: bold;
+
+}
+
+    
+.topbar{
+    display: flex;
+    background-color:grey;
+    width: 100%;
+}
+.topbar2{
+    display: flex;
+    background-color:grey;
+    width: 100%;
+}
+h1 {
+    color: white;
+    margin-left: 20px;
+    
+    
+}
+h2{
+ 
+    font-size: large;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: normal;
+    
+}
+.Edu{
+    margin-bottom: 10px;
+}
+h3 {
+    margin-left: 20px;
+
+}
+
+p {
+    color: white;
+    text-align: left;
+    margin-top: 12px;
+    padding: 15px;
+    display: block;
+}
+
+a {
+    text-align: left;
+}
+
+button {
+    height: 25px;
+    width: 72px;
+    margin-top: 25px;
+    margin-left: 135px;
+}
+
+.name {
+    color: black;
+}
+
+.about-me {
+    color: black;
+}
+img{
+    width: 15px;
+    height: 15px;
+    /* margin-left: 20px; */
+}
+#close{
+    margin-left: 5px;
+
+}
+#open{
+    margin-left: 40px;
+    /* display: flex; */
+}
+.names{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: antiquewhite; */
+    height: 150px;
+    border-bottom: 2px;
+    border-color: black;
+    font-weight: bold;
+    font-style:initial;
+    
+}
+.endbox{
+    border-top: 2px;
+    /* border-color: black;
+    border-style: solid; */
+}
+.bottomtext{
+    display: inline-block;
+}

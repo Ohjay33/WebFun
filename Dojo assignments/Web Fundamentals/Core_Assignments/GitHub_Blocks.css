@@ -23,6 +23,7 @@ h1{
     background-color:rgb(231, 134, 231);
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     
 }
 .whitebox{
@@ -36,7 +37,6 @@ h1{
 img{
     height: 160px;
     width: 175px;
-    align-items: center;
-    margin-top: 26px;
+  align-self: center;
     
 }
