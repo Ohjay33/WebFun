@@ -1,4 +1,4 @@
-.outerbox{
+.outerbox {
     width: 600px;
     height: 800px;
     background-color: rgb(179, 179, 190);
@@ -7,36 +7,40 @@
     /* border: 10px black; */
     /* border-style: solid; */
 }
-h1{
+
+h1 {
     text-align: center;
 }
-.bluebox{
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
     width: 100%;
-    height: 216px;
+    height: 250px;
+}
+
+.bluebox {
     background-color: rgb(129, 129, 223);
-    display: flex;
-    justify-content: space-evenly;
-}
-.purplebox{
-    width: 100%;
-    height: 260px;
-    background-color:rgb(231, 134, 231);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    
-}
-.whitebox{
-    width: 100%;
-    height: 199px;
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: space-evenly;
 
 }
-img{
+
+.purplebox {
+
+    background-color: rgb(231, 134, 231);
+
+
+}
+
+.whitebox {
+
+    background-color: whitesmoke;
+
+
+}
+
+img {
     height: 160px;
     width: 175px;
-  align-self: center;
-    
+    align-self: center;
+
 }
