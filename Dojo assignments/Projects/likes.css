@@ -1,0 +1,24 @@
+.userbox{
+    width: 350px;
+     height: 130px; 
+     margin-left: 300px;
+     border: 3px black solid;
+    /* outline: 2px red solid; */
+}
+.topbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    background-color: gold;
+    box-shadow: 3px 3px 1px;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+}
+span{
+    font-weight:bold;
+}

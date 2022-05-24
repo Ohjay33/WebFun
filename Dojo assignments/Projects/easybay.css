@@ -111,10 +111,17 @@ h2{
     vertical-align: bottom;
      
  }
- img{
+
+
+.hover{
+    
+}
+ .plumber{
      height: 300px;
-     width: 246px;
+     width: 246px; 
  }
+ 
+
  .privateI{
      height: 190px;
  }  

@@ -1,0 +1,126 @@
+
+
+.topbar{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    height: 64px;
+
+}
+
+h1{
+    padding-left: 30px;
+    color: orange;
+    
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    
+    
+}
+.join{
+    width: 60px;
+    height: 29px;
+    background-color: orange;
+    color: black;
+    
+}
+.login{
+    width: 60px;
+    height: 29px;
+    margin-left: 10px;
+    background-color: blue;
+    color: white;
+}
+.searchbar{
+    height: 133px;
+    background-color: tan;
+    align-items: center;
+    display: flex;
+    padding-left: 30px;
+    
+}
+.Search{
+    align-items: center;
+    /* margin-top: 50px;
+    margin-left: 30px; */
+    border: 3px black solid;
+    height: 30px;
+    border-radius: 14%;
+}
+#go{
+    height: 30px;
+    background-color: blue;
+    color: white;
+    box-shadow: 3px 3px 1px black;
+    border-radius: 13%;
+    
+    
+}
+
+.mainbox{
+    background-color: gray;
+    /* height: 511px; */
+    height: 650px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content:sp;
+    padding-top:30px ;
+
+}
+h2{
+    text-align: center;
+}
+
+.pieinfo{
+    font-weight: bold;
+}
+
+.strawberry{
+    height: 500px;
+    /* width: 662px; */
+    width: 93%;
+    padding-left: 25px;
+    align-items: center;
+}
+.info{
+    width: 130px;
+    height: 150px;
+    font-weight: bold;
+    
+}
+
+.rightside{
+    height: 650px;
+    width: 600px;
+     background-color:white;
+     padding: 5px;
+     
+}
+
+.toptext{
+    height: 40px;
+    width: 559px;
+    background-color: white;   
+    text-align:left;
+    border-bottom: 2px black solid;
+    margin-left: 10px;
+    font-weight: bold;
+    
+    
+
+}
+.logopie{
+    height: 34%;
+    width: 500px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.info2{
+    width: 100px;
+    font-weight: bold;
+}

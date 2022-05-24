@@ -14,12 +14,12 @@
 
 
 
-// var sum = 0;
-//   for (var x = 0; x <= 255; x += 1) {
-                              //x=x+y//
-//     sum = sum + x;
-//     console.log(x, sum);
-//   }
+var sum = 0;
+  for (var x = 0; x <= 255; x += 1) {
+                              x=x+y
+    sum = sum + x;
+    console.log(x, sum);
+  }
 
 
 
