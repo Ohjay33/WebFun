@@ -29,10 +29,10 @@
             <span class="text"> Highlights</span>
             <div class="mainpic">
                 <div class="bigpicture">
-                    <img class="arrow" src="images/chevron-left.png" alt="">
+                    <img class="arrow" src="images/chevron-left.png" alt="" >
                     <img class="bigpic" src="images/stonepunk.png" id="myImg" alt="">
                     <!-- <button type="button" onclick="changeImg()" value=""> -->
-                    <img class="arrow" src="images/chevron-left.png" alt="" onclick="changeImg()">
+                    <img class="arrow" id="flipp" src="images/chevron-left.png" alt="" onclick="changeImg()">
                     
                 <!-- </button> -->
                 </div>
@@ -87,7 +87,7 @@
                                 <img src="images/windows.png" alt="">
                                 <img src="images/apple.png" alt="">
                                 <img class="linux" onclick="alert('This game is supported on Linux')"
-                                    src="images/linux.png" alt="">
+                                    src="images/linux.png" alt="" style="transform:scaleX(-1)">
                             </div>
                         </div>
                         <button class="but1" onclick="increment(this)" >New</button>

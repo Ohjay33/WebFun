@@ -126,7 +126,10 @@ button{
     background-color: green;
     box-shadow: 1px 1px 1px;
 
+}
 
+.linux{
+    transform: 
 }
  #pic1{
      width: 164px;
@@ -154,6 +157,8 @@ button{
      display: flex;
      justify-content: space-between;
  }
- 
 
+#flipp{
+    transform: rotate(180deg);
+}
  
