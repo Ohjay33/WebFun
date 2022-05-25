@@ -1,0 +1,159 @@
+.container{
+    width: 793px;
+    height: 473px;
+    outline: 2px black solid;
+    margin-left: 100px;
+    background-color: lightgray;
+
+}
+h1{
+    text-align: center;
+    color:azure;
+ 
+}
+.text{
+    padding-left: 141px;
+}
+
+.topbar{
+    display: flex;
+    /* outline: 1px red solid; */
+    background-color: black;
+    justify-content: space-around;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    border-top: 5px purple solid;
+}
+
+.righttop{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+}
+
+span{
+    font-weight: bold;
+    font-size:small
+    /* padding-left: 136px; */
+}
+.mainpic{
+    display: flex;
+    align-items: center;
+}
+.bigpicture{
+    display: flex;
+    align-items: center;
+    padding-left: 138px;
+}
+
+
+.bigpic{
+    height: 162px;
+    width: 436px;
+    align-items: center;
+    /* padding-left: 30px; */
+}
+img{
+    height: 25px;
+    width: 25px;
+    align-items: center;
+    padding-left: 10px;
+   
+}
+
+/* .bottompics{
+    text-align: center;
+    width:20px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 100px;
+} */
+ .bottomrow{ 
+    display: flex;
+    align-items: center;
+    /* outline: 2px red solid; */
+    justify-content:center;
+    /* width: 200px; */
+    height: 226px;
+    
+} 
+.cafe{
+    /* background-color: blueviolet; */
+    /* height: 200px; */
+    /* width: 75px; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+}
+
+.Neko{
+    background-color: white;
+   margin: 5px;
+}
+
+.pixel{
+background-color: white;
+margin: 5px;
+}
+
+.punk10000{
+background-color: white;
+margin: 5px;
+}
+/* 
+.ninjas{
+    background-color: white;
+    padding-left: 8px;
+}
+
+.stonepunk{
+    background-color: white;
+} */
+
+button{
+    width: 40px;
+    height: 40px;
+}
+
+.but1{
+    background-color: purple;
+    padding-top: 3px;
+    box-shadow: 1px 1px 1px;
+
+}
+.but2{
+    background-color: green;
+    box-shadow: 1px 1px 1px;
+
+
+}
+ #pic1{
+     width: 164px;
+     height: 81px;
+     /* padding: 5px; */
+ }
+ #pic2{
+     width: 164px;
+     height: 81px;
+ }
+ #pic3{
+     width: 164px;
+     height: 81px;
+     /* padding: 5px; */
+ }
+
+ #myInput{
+     width: 70px;
+ }
+ .dropbtn{
+     height: 25px;
+     width: 20px;
+ }
+ .dropdown{
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+
+ 

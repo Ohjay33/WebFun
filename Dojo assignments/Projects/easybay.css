@@ -6,6 +6,7 @@
     align-items: flex-start;
 }
 
+
 .navbar {
     width: 100%;
     height: 75px;
@@ -64,6 +65,7 @@ background-color: white;
 ul{
     display: flex;
     justify-content: space-between;
+    list-style: none;
     padding-left: 5px;
     margin: 0%;
     border-bottom: 2px;
@@ -80,16 +82,20 @@ ul{
 
 p{
     width: 100%;
+    margin-right: 10px;
     
     
 }
 .mainbox{
     /* display: flex; */
     justify-content: space-around;
+    height: 315px;
+    width: 819px;
+    margin: 0%;
 }
 .mainbox2{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 h2{
@@ -101,7 +107,9 @@ h2{
      height: 300px;
      background-color: rgb(18, 140, 138);
      display: flex;
-     align-items: flex-start;
+     /* align-items: flex-start; */
+     justify-content: space-around;
+     
  }
 
  .info{
@@ -119,11 +127,13 @@ h2{
  .plumber{
      height: 300px;
      width: 246px; 
+     margin-left: 30px;
  }
  
 
  .privateI{
      height: 190px;
+     
  }  
  h3{
      background-color: rgb(18, 140, 138);

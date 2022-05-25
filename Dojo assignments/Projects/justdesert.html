@@ -14,13 +14,13 @@
     <div class="topbar">
         <h1>JustDessert</h1>
         <div class="buttons">
-            <button class="join">join</button>
+            <button onclick="hide(this)" class="join">join</button>
             <button class="login">login</button>
         </div>
     </div>
     <div class="searchbar">
-        <input class="Search" type="search" id="query" name="q" placeholder="Search...">
-        <button id="go">Go</button>
+        <input class="Search" type="text" placeholder="Type something..." id="myInput">
+        <button id="go" type="button" onclick="getInputValue();">Go</button>
         <img src="" alt="">
         <img src="" alt="">
         <img src="" alt="">
@@ -34,6 +34,7 @@
                 <p>Strawberry Pie
                     By: <a href="">Ohjay Moore</a>
                 </p>
+                <a class="recipe" href="">See Full Recipe</a>
             </div>
         </div>
         <div class="rightside">
