@@ -1,3 +1,9 @@
+// Const = Substitute for variable "cannot be changed"
+// Let = Subtitute for Variable. "can be changed"
+
+
+
+
 // Countdown by Fours
 // Print positive numbers starting with 2020, counting down by fours (excluding 0)
 //     Challenge:Do this with a FOR loop first and then do it using a WHILE loop afterwards
@@ -133,17 +139,28 @@
     <button type="button" onclick="getInputValue();">Get Value</button> */}
 
 
-    function changeImg() {
-        var image = document.getElementById('myImg');
-        if (image.src.match("img/more.jpg")) {
-            image.src = "img/less.jpg";
-        }
-        else {
-            image.src = "img/more.jpg";
-        }
-    }
+//     function changeImg() {
+//         var image = document.getElementById('myImg');
+//         if (image.src.match("img/more.jpg")) {
+//             image.src = "img/less.jpg";
+//         }
+//         else {
+//             image.src = "img/more.jpg";
+//         }
+//     }
 
-//-------HTML example----------//
+// //-------HTML example----------//
     
-    <img src="img/more.jpg" id="myImg" width="40" height="40">
-<input type="button" onclick="changeImg()" value="Change" />
+//     <img src="img/more.jpg" id="myImg" width="40" height="40">
+// <input type="button" onclick="changeImg()" value="Change" />
+
+
+// -------Generate random Numbers---------//
+// function alertRandom() {
+//     var randomNumber = Math.floor(Math.random()* 6) + 1;
+//     alert(randomNumber);
+//     }
+
+// for(let i=0; i < 120; i++)
+// console.log(i)
+

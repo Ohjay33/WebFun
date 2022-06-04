@@ -1,0 +1,108 @@
+.main{
+    /* background-color: darkgray; */
+}
+
+.topbar{
+    display: flex;
+    justify-content:space-evenly;
+    height: 70px;
+    width: 100%;
+    background-color: black;
+
+    
+    /* background-color: black; */
+    
+}
+
+h1{
+    color: rgb(245, 240, 240);
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+.buttons{
+    
+    display: flex;
+    color: aliceblue;
+    /* background-color: gray; */
+    /* height: 30px; */
+    margin-top: 20px;   
+    justify-content: space-around;
+    
+}
+button{
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* justify-content: space-around; */
+
+}
+
+p{
+    text-align: center;
+    /* font-weight: bold; */
+    font-size: x-large;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 600px;
+    margin: 0px;
+    margin-top: 175px;
+    color: antiquewhite;
+}
+.infobox{
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 500px;
+}
+img{
+    width: 20px;
+    height: 20px;
+    /* align-items:center; */
+    margin-top: 18px;
+    /* margin-left: 40px; */
+    /* padding: 10px; */
+    
+}
+.pictures{
+    /* align-items: center; */
+    margin-left: 100px;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    padding-left: 10px;
+    margin-top: 12px;
+    
+}
+
+.face{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+   border-radius: 40px;
+   margin-top: 40px;
+}
+
+.github{
+    margin-right: 10px;
+}
+
+.aboutme{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.github{
+    color: white;
+    background-color: antiquewhite;
+
+}
+  
