@@ -22,11 +22,8 @@ import random
 # for x in range (1, 10):
 #     print(x)
 
-
-def get_circle_area(r):
-    #Return (circumference, area) of a circle of radius r
-    c = 2 * math.pi * r
-    a = math.pi * r * r
-    return (c, a)
-
-
+x = 12 
+if x < 10:
+    print("bigger")
+elif x > 10:
+    print("small")

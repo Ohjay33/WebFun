@@ -2,8 +2,8 @@ import random
 print(random.randint(1,10)) # provides a random number between 2 and 5
            # Syntax
 #List[]
-#string()
-tuple()
+#tuple()
+#dictionary{}
 
  <                       #List of  Methods
  list.extend(list2)      # adds all values from a second sequence to the end of the original sequence.
