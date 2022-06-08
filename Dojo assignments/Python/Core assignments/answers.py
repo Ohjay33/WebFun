@@ -31,20 +31,20 @@ students = [
          {'first_name' : 'KB', 'last_name' : 'Tonel'}
     ]
 
-def iterateDictionary2(key_name, some_list):
-    for i in some_list:
-        print(i.get(key_name))
+# def iterateDictionary2(key_name, some_list):
+#     for i in some_list:
+#         print(i.get(key_name))
 
 
-def printInfo(some_dict):
-    for k, v in some_dict.items():
-        print(f"{len(v)} {k.upper()}")
-        for i in v:
-            print(i)
-        print()
+# def printInfo(some_dict):
+#     for k, v in some_dict.items():
+#         print(f"{len(v)} {k.upper()}")
+#         for i in v:
+#             print(i)
+#         print()
 
-dojo = {
-   'locations': ['San Jose', 'Seattle', 'Dallas', 'Chicago', 'Tulsa', 'DC', 'Burbank'],
-   'instructors': ['Michael', 'Amy', 'Eduardo', 'Josh', 'Graham', 'Patrick', 'Minh', 'Devon']
-}
-printInfo(dojo)
+# dojo = {
+#    'locations': ['San Jose', 'Seattle', 'Dallas', 'Chicago', 'Tulsa', 'DC', 'Burbank'],
+#    'instructors': ['Michael', 'Amy', 'Eduardo', 'Josh', 'Graham', 'Patrick', 'Minh', 'Devon']
+# }
+# printInfo(dojo)
