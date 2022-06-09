@@ -1,0 +1,4 @@
+create a virtual environment. I must create one in every new python project
+                Type this in terminal
+                
+                 [pipenv install flask]
