@@ -7,18 +7,18 @@ class User:
         self.account = BankAccount(int_rate=0.05, balance=0)
 
     def make_deposit(self, amount):
-        self.account += amount
+        self.account.deposit(amount)
 
     def make_withdrawal(self, amount):
-        self.account -= amount
+        self.account.withdraw(amount)
 
     def display_user_balance(self):
-        print(self.name, self.account)
+        print(self.name, self.account.balance)
 
 
     def transfer_money(self, other_user, amount):
-        self.account -= amount
-        other_user.account += amount
+        self.make_withdrawal(amount)
+        other_user.make_deposit(amount)
 
         
 
@@ -63,14 +63,7 @@ class BankAccount:
 ohjay = User("Oscar Moore", "oj@gmail", "checking")
 sue = User("Suaddah Irvin", 'sue@yahoo.com', "savings")
 
-
-ohjay.account.deposit(300)
-ohjay.account.deposit(300)
-ohjay.account.deposit(300)
-ohjay.account.withdraw(200)
-# sue.transfer_money(ohjay,100)
-ohjay.account.display_account_info()
-sue.account.deposit(500)
-sue.account.display_account_info()
-print(ohjay.name)
+ohjay.make_deposit(500)
+ohjay.transfer_money(sue,300)
+ohjay.display_user_balance()
 
