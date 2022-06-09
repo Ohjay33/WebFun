@@ -13,7 +13,7 @@ class User:
         self.account.withdraw(amount)
 
     def display_user_balance(self):
-        print(self.name, self.account.balance)
+        print(self.name, self.account.balance, self.type)
 
 
     def transfer_money(self, other_user, amount):
@@ -64,6 +64,11 @@ ohjay = User("Oscar Moore", "oj@gmail", "checking")
 sue = User("Suaddah Irvin", 'sue@yahoo.com', "savings")
 
 ohjay.make_deposit(500)
-ohjay.transfer_money(sue,300)
+ohjay.make_deposit(500)
+ohjay.make_deposit(500)
+sue.make_deposit(1500000)
+ohjay.transfer_money(sue,500)
+sue.transfer_money(ohjay, 500000)
 ohjay.display_user_balance()
+sue.display_user_balance()
 
