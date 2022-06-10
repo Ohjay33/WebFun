@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Flask</title>
+</head>
+
+<body>
+    <h1>Hello Coding Dojo</h1>
+    <h3>My Flask Template</h3>
+    <p>Phrase: {{ phrase }}</p>
+    <p>Times: {{ times }}</p>
+    <p>Hello: {{ hello}}</p>
+    <div></div>
+
+
+    {% for x in range(0,times): %}
+    <p>{{ phrase }}</p>
+    {% endfor %}
+
+    {% if phrase == "I Love you" %}
+    <p>The phrase says I Love you</p>
+    {% endif %}
+
+    {% for x in range(0,times): %}
+    <p>{{hello}}</p>
+    {% endfor %}
+
+
+
+</body>
+
+</html>
