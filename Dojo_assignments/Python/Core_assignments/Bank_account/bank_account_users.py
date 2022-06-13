@@ -63,12 +63,12 @@ class BankAccount:
 ohjay = User("Oscar Moore", "oj@gmail", "checking")
 sue = User("Suaddah Irvin", 'sue@yahoo.com', "savings")
 
-ohjay.make_deposit(500)
-ohjay.make_deposit(500)
-ohjay.make_deposit(500)
-sue.make_deposit(1500000)
+ohjay.make_deposit(200)
+ohjay.make_deposit(200)
+ohjay.make_deposit(200)
+sue.make_deposit(15000)
 ohjay.transfer_money(sue,500)
-sue.transfer_money(ohjay, 500000)
+sue.transfer_money(ohjay, 150)
 ohjay.display_user_balance()
 sue.display_user_balance()
 

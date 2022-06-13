@@ -1,0 +1,12 @@
+table{
+    border-style: solid;
+}
+
+thead{
+    border-style: solid;
+}
+
+.first, .last, .full{
+    border-style: solid;
+
+}
