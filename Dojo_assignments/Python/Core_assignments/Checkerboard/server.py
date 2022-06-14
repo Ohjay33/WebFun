@@ -13,7 +13,7 @@ def page():
     return render_template("checkerboard2.html")
 
 @app.route('/<rows>/<columns>')
-def changeSquares(rows, columns):
+def colorChange(rows, columns):
     return render_template("checkerboard3.html", rows=int(rows), columns=int(columns))
 
 

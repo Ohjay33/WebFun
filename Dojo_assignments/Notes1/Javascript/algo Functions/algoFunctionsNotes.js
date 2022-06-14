@@ -164,3 +164,23 @@
 // for(let i=0; i < 120; i++)
 // console.log(i)
 
+
+//----------- return odd occurance in array?find the number that repeats itself an odd number of times---------------//
+export function arrayOddOccurances(arr) {
+    var obj = {}
+    for (let i = 0; i < arr.length; i++){
+      if (obj.hasOwnProperty(arr[i])){
+        obj[arr[i]] += 1
+      }
+      else{
+        obj[arr[i]] = 1
+      }
+    }
+    for (let num in obj){
+      if (obj[num] % 2 === 1){
+        return parseInt(num)
+      }
+    }
+    
+  }
+
