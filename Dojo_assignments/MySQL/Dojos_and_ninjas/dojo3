@@ -1,0 +1,14 @@
+SELECT * FROM dojo_ninja_schema.dojo;
+insert into dojo (name) value ('Universty ohjay');
+insert into dojo (name) value ('universty Michael');
+insert into dojo (name) value ('universty Lauren');
+
+update  dojo set name = 'universty ohjay' where id=3;
+
+insert into ninjas (first_name, last_name, age, dojo_id) values ('Max', 'Myer', 75, 3);
+insert into ninjas (first_name, last_name, age, dojo_id) values ('Sam', 'White', 99, 3);
+insert into ninjas (first_name, last_name, age, dojo_id) values ('Sue', 'Bird', 31, 3);
+
+
+
+select * from ninjas where dojo_id=3
