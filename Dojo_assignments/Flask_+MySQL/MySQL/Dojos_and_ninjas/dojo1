@@ -10,3 +10,12 @@ update  dojo set name = 'universty Lauren' where id=1;
 -- update  dojo set name = 'universty ohjay' where id=3;
 
 select * from ninjas where dojo_id=1
+
+
+select * from users_schema;
+
+insert into users( first_name, last_name, email) values('max', 'Payne', 'payne@gmail.com');
+insert into users( first_name, last_name, email) values('Lisa', 'Anne', 'lisa@yahoo.com');
+insert into users( first_name, last_name, email) values('Donavon', 'Wilford', 'wilford@gmail.com');
+select * from users
+select email from users where id = 1;
