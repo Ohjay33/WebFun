@@ -1,4 +1,3 @@
-
 from flask import Flask, render_template
 app = Flask(__name__)
 
@@ -18,8 +17,8 @@ def block_repeat(number_of_boxes):
 @app.route("/play/<number_of_boxes>/<color_change>")
 def box_color(number_of_boxes,color_change):
     repeat = (int(number_of_boxes))
-    colorChange = color_change
-    return render_template('index3.html', repeat = repeat, colorChange = color_change )
+    color_change = color_change
+    return render_template('index3.html', repeat = repeat, color_change = color_change )
 
 
 if __name__ == "__main__":

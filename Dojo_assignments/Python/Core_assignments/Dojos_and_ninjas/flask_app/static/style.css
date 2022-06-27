@@ -1,0 +1,64 @@
+html{
+    /* background */
+	background-image: linear-gradient(to bottom right, rgba(0, 255, 255, 0.5), rgba(142, 164, 212, 0.5), rgba(138, 43, 226, 0.5));
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    /* size */
+    width: 100vw;
+    height: 100vh;
+}
+
+    body{ /*WHOLE DOC*/
+        box-sizing: border-box;
+        /* height and width */
+        width: 98vw;
+        height: 98vh;
+        /* font */
+        font-family: "Barlow Condensed";
+        text-align: center;
+        font-size: 2vh;
+        color: rgba(0, 0, 0, 0.6);
+    }
+        nav{
+            background-color: rgba(240, 248, 255, 0.2);
+            border-radius: 2vh;
+            padding: 1vh;
+        }
+
+        main{
+            box-sizing: border-box;
+            /* styling*/
+            color: rgba(0, 0, 0, 0.6s); /* top: left right, bottom: left, right */
+            /* size */
+            height: 85vh;
+            width: 90vw;
+            margin: 1vh auto;
+            /* scroll */
+            overflow-y: scroll;
+            scrollbar-width: none;
+        }
+        main > div{
+            /* background and set */
+            box-sizing: border-box;
+            background-color: rgba(240, 248, 255, 0.2);
+            border-radius: 3vh;
+            /* width height */
+            height: min-content;
+            max-width: 600px;
+            /* margin */
+            margin : 1vh auto;
+            padding: 1vh;
+        }
+
+
+
+
+/*HEADERS*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: Lobster;
+    color:rgba(138, 43, 226, 0.6);
+    padding: 0;
+    padding-bottom: 0.5vh;
+    margin: 0;
+}
