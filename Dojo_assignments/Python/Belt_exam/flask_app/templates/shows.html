@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Howdy, {{session['username']}}</p>
+    <a href="/shows/new">add a new show</a>
+    <button>Logout</button>
+    <h2>All Tv Shows </h2>
+
+<table>
+    <thead>
+        <th>Title</th>
+        <th>Network</th>
+        <th>Release Date</th>
+        <th>Actions</th>
+    </thead>
+    {% for show in shows %}
+    <tr>
+        <td>{{show.title}}</td>
+        <td>{{show.network}}</td>
+        <td>{{show.Release_date}}</td>
+        <td>Actions</td>
+    </tr>
+</table>
+</body>
+</html>

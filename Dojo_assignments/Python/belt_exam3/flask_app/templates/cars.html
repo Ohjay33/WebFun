@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cars</h1>
+    <p>welcome {{session['first_name']}}</p>
+    <a href="/cars/new">Add Car</a>
+
+    <table>
+        <thead>
+            <th>Price</th>
+            <th>Model</th>
+            <th>Make</th>
+            <th>Year</th>
+            <th>Action</th>
+        </thead>
+        {% for car in cars %}
+        <tr>
+            <td>{{cars.price}}</td>
+            <td>{{cars.model}}</td>
+            <td>{{cars.make}}</td>
+            <td>{{cars.year}}</td>
+            <td><a href="/cars/{{car.id}}">VIEW</a>{% if  car.user_id == session['user_id'] %} <a href="/cars/{{car.id}}/edit">Edit</a>
+            <a href="/cars/{{car.id}}/confirm_delete">Delete</a>{% endif %}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

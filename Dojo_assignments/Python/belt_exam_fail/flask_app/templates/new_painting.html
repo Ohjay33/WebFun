@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>add Painting</p>
+    {% for message in get_flashed_messages()%}
+    <p>{{message}}</p>
+    {% endfor %}
+    <form action="/painting/create" method="POST">
+        Title: <input type="text" name="painting_title"><br>
+        Price: <input type="number" name="painting_price"><br>
+        Description: <textarea name= "painting_desription"></textarea><br>
+        <input type="submit">  
+    </form>
+</body>
+</html>

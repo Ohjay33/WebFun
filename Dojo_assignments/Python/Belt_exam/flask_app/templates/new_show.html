@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p> Add a New Show</p>
+    {% for message in get_flashed_messages() %}
+    <p>{{message}}</p>
+    {% endfor %}
+
+    <form action="/shows/create" method="POST">
+        Title: <input type="text" name="show_title"><br>
+        Network: <input type="text" name="show_network"><br>
+        Release Date: <input type="date" name="show_date"><br>
+        Description: <textarea name="show_description"></textarea><br>
+
+        <input type="submit">
+    </form>
+</body>
+
+</html>
